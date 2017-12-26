@@ -1,4 +1,4 @@
-package leetcodeUtil
+package treeNode
 
 import (
 	"fmt"
