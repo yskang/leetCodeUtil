@@ -1,3 +1,4 @@
+//Package treeNode is implementation of tree node structure used in leetcode.
 package treeNode
 
 import (
