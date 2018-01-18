@@ -47,3 +47,27 @@ fmt.Println(tree)
 // output: 
 // 1,null,2,3,null,4,5
 ```
+
+## listNode
+A listNode has a one integer value and one pointer which point other listNode.
+```
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
+```
+You can make a listNode using a list of integers and print as a string.
+
+### How to use
+Create a listNode with a list of integers.
+```
+InitListNode([]int{1, 2, 3, 4, 5}
+``` 
+InitListNode returns a pointer of created listNode.
+
+You can print a listNode as a string.
+```
+fmt.Println(InitListNode([]int{1, 2, 3, 4, 5}))
+// output:
+// 1,2,3,4,5
+```
